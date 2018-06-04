@@ -15,14 +15,18 @@ Together.(
 # => [:foo, :bar]
 ```
 
-By default Together has the following settings
-
-- timeout after one seconds
--
-
-These setting can be changed by the following:
+Together has the following settings which can be passed into the method call:
 - `timeout: 1`: How long before timing out?
 - `raise_exceptions: true`: Raise any exceptions that happen in any of the sub-calls. If set to `false`, this will not raise exceptions but instead store them in an array called `exceptions`.
+
+e.g.
+```
+Together.(
+  Proc.new { :foo },
+  timeout: 2,
+  raise_exceptions: false
+)
+```
 
 ### Notes
 
