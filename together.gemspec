@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jeremy Walker"]
   spec.email         = ["jez.walker@gmail.com"]
 
-  spec.summary       = %q{Run sql statements in parallel}
-  spec.description   = %q{Run sql statements in parallel}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A simple parallelizer for Ruby}
+  spec.description   = %q{A simple parallelizer for Ruby}
+  spec.homepage      = "https://github/iHiD/together"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
